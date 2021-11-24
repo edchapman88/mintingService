@@ -1,0 +1,2 @@
+# mintingService
+NFT minting application
