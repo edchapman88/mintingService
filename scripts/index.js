@@ -5,12 +5,12 @@ async function main () {
     // instance
 
     // address of deployed contract
-    const address = '0xa6286edd4c0D2Eb9F9c7010C3400A139091203cb';
+    const address = '0xb79d5d4D9C6aB4fc31d579024c6D78C443FFb28C';
     const SmartContractMint = await ethers.getContractFactory('smartContractMint');
     const smartContractMint = await SmartContractMint.attach(address);
 
     // Call the mintToken function of the deployed smartContractMint contract
-    const tokenId = await smartContractMint.mintToken(owner="0x7d8D23485217EC8fd2E92dA148BA58a2d2b1670B", metadataURI='https://spacedetention.files.wordpress.com/2021/10/16-e1635773315394.jpg');
+    const tokenId = await smartContractMint.mintToken(owner="0x7d8D23485217EC8fd2E92dA148BA58a2d2b1670B", metadataURI='https://spacedetention.com/assets/metadata.json');
     console.log('NFT tokenId is: ', tokenId);
 }
 

@@ -16,7 +16,7 @@ async function getNFTMetadata(contractAddress, tokenId) {
 };
   
 const contractAddress = '0xa6286edd4c0d2eb9f9c7010c3400a139091203cb';
-const tokenId = '2';
+const tokenId = '1';
   
 getNFTMetadata(contractAddress, tokenId)
   .then(() => process.exit(0))

@@ -9,8 +9,8 @@ require('@nomiclabs/hardhat-ethers')
 
 module.exports = {
   networks: {
-    ropsten: {
-      url: `https://eth-ropsten.alchemyapi.io/v2/${alchemyApiKey}`,
+    rinkeby: {
+      url: `https://eth-rinkeby.alchemyapi.io/v2/${alchemyApiKey}`,
       accounts: { mnemonic: mnemonic },
     },
   },

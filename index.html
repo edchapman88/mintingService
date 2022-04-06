@@ -26,7 +26,7 @@
 
         // the returned metadata.url has the IPFS URI we want to add.
         // our smart contract already prefixes URIs with "ipfs://", so we remove it before calling the `mintToken` function
-        const metadataURI = 'https://spacedetention.files.wordpress.com/2021/10/16-e1635773315394.jpg'
+        const metadataURI = 'https://spacedetention.com/models/metadata.json'
 
         // scaffold-eth's Transactor helper gives us a nice UI popup when a transaction is sent
         //const transactor = Transactor(provider, gasPrice);
@@ -58,8 +58,8 @@
         contract=contract,
         ownerAddress=0x7d8D23485217EC8fd2E92dA148BA58a2d2b1670B,
         provider=provider,
-        name="Memory?",
-        description="Immortal only in memory");
+        name="Memory has faded?",
+        description="Immortal only on the internet");
 
         // Write the greeting result to the DOM.
         document.getElementById('output').innerHTML = minting;
