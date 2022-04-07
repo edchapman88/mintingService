@@ -10,7 +10,7 @@ async function main () {
     const smartContractMint = await SmartContractMint.attach(address);
 
     // Call the mintToken function of the deployed smartContractMint contract
-    const tokenId = await smartContractMint.mintToken(owner="0x7d8D23485217EC8fd2E92dA148BA58a2d2b1670B", metadataURI='https://spacedetention.com/assets/metadata.json');
+    const tokenId = await smartContractMint.mintToken(owner="0xB73de51B4cACd861BA2c8dB139e8e9A2ac5cE08e", metadataURI='https://spacedetention.com/assets/metadata.json');
     console.log('NFT tokenId is: ', tokenId);
 }
 
