@@ -10,7 +10,7 @@ contract smartContractMint is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721("EdsNFTholo2", "EDSNFTHOLO2") {}
+    constructor() ERC721("EdsNFThtmlHolo", "EDSNFTHTMLHOLO") {}
 
     function mintToken(address owner, string memory metadataURI)
     public

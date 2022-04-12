@@ -72,8 +72,8 @@
       ]
     },
     "/Users/edchapman/OneDrive/Mac local/VSCode/mintingService/contracts/smartContractMint.sol": {
-      "lastModificationDate": 1649183422915,
-      "contentHash": "4bd87969c8312eae44cd0dbfd47dd413",
+      "lastModificationDate": 1649698227373,
+      "contentHash": "98c708cde3a6c8e2c75b142fbf4c94e5",
       "sourceName": "contracts/smartContractMint.sol",
       "solcConfig": {
         "version": "0.8.5",
